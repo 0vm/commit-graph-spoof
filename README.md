@@ -3,6 +3,26 @@
 This script automatically creates a GitHub repository, makes a fake commit from 1970, and pushes it.
 ![{475DA972-F465-4E05-948D-D7EC12C9E030}](https://github.com/user-attachments/assets/c8a6a54b-f0f9-48ee-a9e4-d8cd3101522e)
 
+## Prerequisites
+
+- **Git** must be installed on your system.
+  - **Windows**: [Download Git](https://git-scm.com/download/win)
+  - **MacOS**: Install via Homebrew:
+    ```bash
+    brew install git
+    ```
+  - **Linux**: Install via package manager:
+    ```bash
+    sudo apt install git -y  # Debian/Ubuntu
+    sudo dnf install git -y  # Fedora
+    ```
+
+- **Python 3** must be installed.
+  - Check by running:
+    ```bash
+    python --version
+    ```
+
 ## Usage
 
 1. **Get a GitHub Personal Access Token (PAT)**
