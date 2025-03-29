@@ -17,7 +17,7 @@ print("Creating GitHub repository...")
 repo_data = {
     "name": REPO_NAME,
     "private": False,  # Change to True if you want a private repo
-    "description": "Commit Graph :D https://github.com/0vm/commit-graph-spoof",
+    "description": "Commit Graph https://github.com/0vm/commit-graph-spoof",
 }
 
 response = requests.post(
@@ -43,7 +43,7 @@ with open("README.md", "w") as f:
 
 # Step 4: Commit the README with a fake timestamp
 subprocess.run(["git", "add", "README.md"])
-subprocess.run(["git", "commit", "-m", "GitHub @0vm", "--date=1970-01-01T00:00:00"])
+subprocess.run(["git", "commit", "-m", "GitHub.com/0vm", "--date=1970-01-01T00:00:00"])
 
 # Step 5: Push the commit
 subprocess.run(["git", "branch", "-M", "main"])
